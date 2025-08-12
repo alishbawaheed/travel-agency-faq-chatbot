@@ -36,12 +36,18 @@ Alishba Waheed
  ```bash
  python chatbot.py
 
+
+
+
 ## 🗂️ Project Structure
 
 travel-agency-chatbot/
 ├── chatbot.py        # Main Flask chatbot application script
 ├── README.md         # This README file
 └── wanderlust travels.png 
+
+
+
 
 
 ## 💡 Usage
