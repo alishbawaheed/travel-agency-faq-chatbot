@@ -1,4 +1,4 @@
-Travel Agency FAQ Chatbot
+# Travel Agency FAQ Chatbot
 
 A Python Flask-based web application chatbot that answers FAQs about a travel agency. It provides instant responses to common questions on bookings, packages, pricing, discounts, office timings, and more with a user-friendly colored interface. The chatbot greets users based on current time and runs locally with automatic browser launch.
 
@@ -61,10 +61,12 @@ python chatbot.py
 
 ## 📁 Project Structure
 
-travel-agency-chatbot/
-├── chatbot.py        # Main Flask chatbot application script
-├── README.md         # This README file
-└── wanderlust travels.png 
+📁 travel-agency-chatbot  
+├── 📄 chatbot.py            # Main Flask chatbot application script  
+├── 📄 README.md             # This README file  
+└── 🖼️ wanderlust travels.png  # Logo or related image file  
+
+
 
 
 ## 💡 Usage
