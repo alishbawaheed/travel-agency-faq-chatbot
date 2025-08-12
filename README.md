@@ -1,14 +1,17 @@
-
-# Travel Agency FAQ Chatbot
+Travel Agency FAQ Chatbot
 
 A Python Flask-based web application chatbot that answers FAQs about a travel agency. It provides instant responses to common questions on bookings, packages, pricing, discounts, office timings, and more with a user-friendly colored interface. The chatbot greets users based on current time and runs locally with automatic browser launch.
 
-👩‍💻 Developed By  
-Alishba Waheed
-
 ---
 
-## ✨ Features  
+
+
+## 👩‍💻 Developed By
+   
+      Alishba Waheed
+
+
+## 📌 Features
 - **Dynamic Greetings:** Displays good morning, good afternoon, or good evening based on current time  
 - **FAQ Matching:** Matches user questions with predefined FAQs using keyword matching  
 - **User-friendly Interface:** Clean, modern, and colorful design for easy interaction  
@@ -17,37 +20,51 @@ Alishba Waheed
 - **Auto Browser Launch:** Opens the chatbot page automatically when the server starts  
 - **Responsive Design:** Works well on different screen sizes  
 
+
 ---
 
-## 🚀 Getting Started  
 
-### Prerequisites  
-- Python 3.6 or newer  
+## 🚀 Getting Started
+Prerequisites
 
-### Installation & Setup  
-1. Clone the repository or download the `chatbot.py` file:  
-   ```bash
-   git clone https://github.com/yourusername/travel-agency-chatbot.git
-   cd travel-agency-chatbot
-2. Install Flask using pip:
-    ```bash
-    pip install flask
-3. Running the Application
- ```bash
- python chatbot.py
+. Python  (Download Python)
+.  Visual Studio Code (Recommended)
+
+How to Run
+🔹 Clone this Repository
+``bash
+ git clone https://github.com/yourusername/travel-agency-chatbot.git
+cd travel-agency-chatbot
 
 
+Launch Visual Studio Code
+
+Go to File > Open Folder...
+select folder  travel agency faq chatbot
+
+🔹 Set Up Virtual Environment (Recommended)
+
+In VS Code terminal:
+
+python -m venv .venv
+.\.venv\Scripts\activate       # For Windows PowerShell
+
+🔹 Install Required Libraries
+  pip install flask
+🔹 Run the App
+In the VS Code terminal:
+python chatbot.py
 
 
-## 🗂️ Project Structure
+
+---
+
+## 📁 Project Structure
 
 travel-agency-chatbot/
 ├── chatbot.py        # Main Flask chatbot application script
 ├── README.md         # This README file
 └── wanderlust travels.png 
-
-
-
 
 
 ## 💡 Usage
@@ -58,10 +75,13 @@ Press Send or hit Enter to receive answers from the chatbot instantly.
 
 If the chatbot cannot understand your question, it will ask you to try another related query.
 
-## 🛠️ Technologies Used
+
+
+## Technologies Used
 
 Python 3
 
 Flask Web Framework
 
 HTML5 & CSS3 (Embedded in Flask Template)
+
